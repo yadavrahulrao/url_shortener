@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Link Shortener</h1>
+        <label for="url-input">Enter URL:</label>
+        <input type="text" id="url-input" placeholder="Enter a URL" />
+        <button id="shorten-button">Shorten</button>
+
+        <div id="error-message" class="alert"></div>
+        <div id="shortened-url" class="shortened-url"></div>
+        <button id="copy-button" style="display: none;">Copy Shortened URL</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Hello from Flask!</h1>
+    <button id="clickButton">Click me</button>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

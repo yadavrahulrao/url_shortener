@@ -1,0 +1,127 @@
+/* General Body Styles */
+body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        
+        /* Container for content */
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 40px;
+            width: 100%;
+            max-width: 450px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 20px;
+        }
+        
+        /* Heading */
+        h1 {
+            color: #4CAF50;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        
+        /* Input Field */
+        input[type="text"] {
+            width: 80%;
+            padding: 12px;
+            margin-top: 15px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            outline: none;
+        }
+        
+        /* Focus State */
+        input[type="text"]:focus {
+            border-color: #4CAF50;
+        }
+        
+        /* Button Styles */
+        button {
+            padding: 12px 25px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        /* Alert Message */
+        .alert {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9c2c2;
+            color: #d9534f;
+            border-radius: 4px;
+            font-size: 16px;
+            display: none;
+        }
+        
+        /* Shortened URL */
+        .shortened-url {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+        
+        .shortened-url a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        
+        .shortened-url a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Copy Button */
+        #copy-button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            display: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        #copy-button:hover {
+            background-color: #007B9A;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        
