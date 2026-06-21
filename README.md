@@ -128,7 +128,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
 
-Rahul Yadav
-Git Hub - https://github.com/yadavrahulrao
+Rahul Yadav-
+Git Hub - https://github.com/yadavrahulrao , 
 Email - rahul507538@gmail.com
 
